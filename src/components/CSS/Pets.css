@@ -1,0 +1,19 @@
+.containerPet{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.petShop{
+    font-size: 38px;
+   
+    margin:200px 0 15px;
+
+}
+.imgsMascotas{
+    width: 299px;
+    height: 241px;
+    margin-top: 20px;
+}

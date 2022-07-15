@@ -1,0 +1,70 @@
+.boxInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.dog{
+    width: 350px;
+}
+.sectionMessage{
+    height: fit-content;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 25% 75%;
+    justify-content: center;
+
+
+}
+.message{
+    color:#FFC205;
+    width: 25px;
+    font-size: xx-large;
+    justify-self: flex-end;
+    align-self: center;
+    margin-top: 8px;
+    
+  
+    
+}
+.messageParagraph{
+    font-size: xx-large;
+    margin-left: 10px;
+}
+.inputMensaje{
+    width: 370px;
+    height: 200px;
+    border-radius: 15px;
+    border:none;
+    background-color:#EFEFEF ;
+}
+.infoPage{
+    color:#FFC205;
+    font-size: 15px;
+    margin:5px 0 5px 45%;
+    font-weight: bold;
+    width: 100%;
+}
+.inputs{
+    width: 370px;
+    height: 42px;
+    border-radius: 30px;
+	border: none;
+	background-color: #EFEFEF;
+	
+}
+.enviar{
+    width: 370px;
+    height: 42px;
+    border-radius: 30px;
+	border: none; 
+    background-color:#FEE55C;
+    color:#4B4B4B;
+    margin:25px 0 15px;
+}
+.send{
+    width: 25px;
+}

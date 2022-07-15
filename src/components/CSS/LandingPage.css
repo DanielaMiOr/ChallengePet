@@ -1,0 +1,81 @@
+.contenderPrincipal{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+align-items: center;
+
+}
+.imgLogo2{
+	width: 300px;
+}
+.sectionLandingPage{
+	text-align: center;
+}
+.btonGenerico{
+    width: 370px;
+    height: 42px;
+    border-radius: 30px;
+    background-color:#4B4B4B;
+    color:#FFC205;
+    border:1px solid #FFC205;
+    font-size: x-large;
+		margin-top:20px;
+}
+.containerBtns{
+	display: flex;
+	width: 100%;
+	height: fit-content;
+	justify-content: center;
+	margin: 15px 0 15px;
+	
+}
+.btnGoogle{
+	width: 153px;
+	height: 45px;
+  background-image: url("../../img/google2.png");
+	background-repeat: no-repeat;
+	border: none;
+	margin-right: 5px;
+}
+.btnApp{
+	width: 153px;
+	height: 45px;
+  background-image: url("../../img/AppStore1.png");
+	background-repeat: no-repeat;
+	border: none;
+	margin-left: 5px;
+}
+.container-img{
+	width: 100%;
+	height: auto;
+	margin-bottom: 15px;
+}
+.subscribe{
+	font-size: x-large;
+	margin: 0 20px 15px 20px;
+}
+.inputText{
+	width: 370px;
+  height: 42px;
+  border-radius: 30px;
+	border: none;
+	background-color: #EFEFEF;
+	margin: 10px 0 15px;
+	
+}
+input::placeholder {
+  font-size: 15px;
+  font-weight: 600;
+  color: #C4BBB3;
+  padding-left: 15px;
+	text-align: center;
+}
+.btonSus{
+	width: 370px;
+  height: 42px;
+  border-radius: 30px;
+	color:#838052;
+	background-color: #FEE55C;
+	border: none;
+}
