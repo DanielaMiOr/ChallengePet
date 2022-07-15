@@ -12,8 +12,68 @@
     margin:200px 0 15px;
 
 }
-.imgsMascotas{
+.imgsPets{
     width: 299px;
     height: 241px;
     margin-top: 20px;
+}
+/*View Desktop*/
+@media  (min-width: 1301px) {
+    .containerPet{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 83.3px 83.3px 83.3px 250px 250px;
+    }
+    .petShop{
+        grid-column: 1/2;
+        grid-row: 1/2;
+        margin: 0;
+    }
+    .pInfo{
+        grid-column: 1/2;
+        grid-row: 2/3; 
+        width: 80%;
+        justify-self: center;
+        text-align: left;
+    }
+    .pPresentation{
+        grid-column: 1/2;
+        grid-row: 3/4;
+        width: 80%;
+        justify-self: center;
+        text-align: left;
+       align-self: start;
+
+    }
+    #img2{
+        grid-column: 1/2;
+        grid-row: 4/5;
+        justify-self: flex-start;
+        margin-left: 60px;
+    }
+    #img4{
+        grid-column: 1/2;
+        grid-row: 5/6;
+        justify-self: flex-end;
+     
+    }
+    #img1{
+        grid-column: 2/3;
+        grid-row: 1/4;
+        justify-self: start;
+      
+    }
+    #img3{
+        grid-column: 2/3;
+        grid-row: 4/5;
+        justify-self: flex-start;
+        
+    }
+    #img5{
+        grid-column: 2/3;
+        grid-row: 5/6;
+        justify-self: center;
+        
+    }
+
 }

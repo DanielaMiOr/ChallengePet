@@ -30,6 +30,7 @@ function InfoPart(){
 
              <input
             className="inputs"
+            id="inputSend"
             type= "text"
             name="texto"
             />

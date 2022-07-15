@@ -5,7 +5,7 @@ import PetsShop from './components/PetsShop';
 import DescargaApp from './components/DescargaApp';
 import InfoPart from './components/InfoPart';
 import Logo from "./img/logo.png"
-import {AiOutlineMenu} from "react-icons/ai";
+import {AiOutlineMenu,AiFillFacebook,AiFillInstagram} from "react-icons/ai";
 
 
 function App() {
@@ -18,11 +18,17 @@ function App() {
                 <img className="logoImg"
                     src={Logo} />
                     <AiOutlineMenu className="menuBurger"/>
-                    {/* <button className="btnMenu">Home</button>
-                    <button className="btnMenu1">¿Qué somos?</button>
-                    <button className="btnMenu2">Instalar</button>
-                    <button className="btnMenu3"> Dinos Hola!</button>
-                    <button className="btnMenu4"></button> */}
+                    <div className= "btnDesktop">
+                    <button className="btnMenuHome">Home</button>
+                    <button className="btnMenu">¿Qué somos?</button>
+                    <button className="btnMenuHome">Instalar</button>
+                    <button className="btnMenu"> Dinos Hola!</button>
+                    </div>
+                   <div className="containerIconsRed">
+                    <AiFillFacebook className="iconRed"/>
+                    <AiFillInstagram className="iconRed"/>
+                    </div>
+                    
      
             </section>
       <LandingPage/>
